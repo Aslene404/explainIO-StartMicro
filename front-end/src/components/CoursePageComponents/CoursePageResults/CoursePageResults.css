@@ -1,0 +1,129 @@
+.coursePageResults-container{
+    color: white;
+     margin: 20px; 
+}
+
+
+.coursePageResults-elements{
+     display: flex;
+      justify-content: space-between;
+}
+
+ .coursePageResults-row{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  .result-table {
+     border-collapse: collapse;
+     width: 100%;
+     margin-top: 20px;
+   }
+   
+   .result-table th,
+   .result-table td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+     width: 20%;
+   }
+   
+   .result-search {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+   
+     margin: 0px 15px;
+     border: 1px solid rgb(204, 204, 204);
+     background: #fff;
+     width: 50%;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     padding: 15px 20px;
+     gap: 10px;
+     border-radius: 5px;
+   
+     .search-icon {
+       color: #888;
+     }
+   
+     .result-search-input {
+       outline: none;
+       border: none;
+       color: var(--33-c-3-c-3-c, #3c3c3c);
+       width: 100%;
+       font-family: Montserrat;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 20px;
+       overflow: hidden;
+       text-overflow: ellipsis;
+     }
+   }
+
+   .filter-result {
+     border-radius: 5px;
+     height: 40px;
+     color: var(--33-c-3-c-3-c, #3c3c3c);
+     border: none;
+     outline: none;
+     font-weight: 700;
+     cursor: pointer;
+   }
+
+   .no-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+   }
+
+  @media (max-width: 970px){
+     td {
+          max-width: 150px; 
+           overflow: hidden;
+          text-overflow: ellipsis;
+        }
+  }
+
+  @media (max-width: 800px){
+     td {
+          max-width: 100px; 
+        
+        }
+  }
+
+  @media (max-width: 620px){
+     .filter-result{
+          width: 70px;
+     }
+     .filter-result:focus {
+          width: auto;
+        }
+        
+     
+  }
+
+
+   @media (max-width: 520px){
+     td {
+          max-width: 80px; 
+        
+        }
+        th{
+          max-width: 80px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+  } 
+
+  @media (max-width: 425px){
+  
+
+   .result-search{
+     width: 70%;
+     margin: 0px 0px;
+   }
+  } 

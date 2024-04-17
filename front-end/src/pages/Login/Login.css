@@ -1,0 +1,314 @@
+
+    body {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+.btn_submit
+{
+    background-color: #e11b19;
+    color: #bf2320;
+    color: #ffffff;
+    font-size:15px;
+
+}
+.error_msg
+{
+color: rgb(241, 240, 240);
+font-size: 13px;
+margin-top: 4px;
+}
+.btn_submit:hover
+{
+background-color: #1f2327;
+border: solid 2px #e11b19;
+font-weight: 100;
+color: #ffffff;
+}
+.btn_microsoft
+{
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    background-color:#1f2327;
+    border:solid 1.5px #ffffff;
+    color:#ffffff;
+    border-Radius: 5;
+    font-Weight:100px;
+}
+.btn_microsoft:hover
+{
+    background-color: #ffffff;
+    color:#1f2327 ;
+}
+
+
+.logo-name {
+    width: 127px;
+    height: 25px;
+    color: var(--2-f-9-f-9-f-9, #f9f9f9);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-top: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .login-container{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content:center; 
+  }
+
+  .login-elements-Container{
+    padding: 0px;
+    background-color:#1f2327;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width:30%;
+    min-width:450px;
+        
+  }
+
+
+  .login-signIn{
+     max-width: 400px;
+     padding: 1rem; 
+  }
+
+  .login-logo{
+    display: flex;
+    height:40px;
+    align-items:center;
+  }
+
+  .login-form{
+     margin-top: 40px;
+  }
+
+  .login-error{
+     margin-bottom: 10px;
+
+  }
+
+  .login-check-label{
+   color:#ffffff;
+   font-size:"15px";
+
+  }
+
+  .login-company{
+    text-align:center;
+    font-weight:300;
+    font-size:13px;
+  }
+.custom-input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height:60px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custom-input.is-invalid {
+  border-color: #dc3545;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.label-login {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.75rem;
+  font-size: 1.1rem;
+  color: #495057;
+  pointer-events: none;
+  transition: top 0.3s ease, font-size 0.3s ease;
+}
+.create-account
+{
+  color:#838181; 
+  cursor:pointer;
+}
+.create-account:hover
+ {
+  color: #ffffff;
+ }
+
+.custom-input:not(:placeholder-shown) + .label-login,
+.custom-input:focus + .label-login {
+  top: -0.5rem;
+  font-size: 0.75rem;
+}
+
+
+  @media (max-width: 508px) and (min-height: 600px) {
+  
+    .btn_submit
+    {
+        background-color: #e11b19;
+        color: #bf2320;
+        color: #ffffff;
+        font-size:15px;
+    
+    }
+    .error_msg
+    {
+    color: rgb(241, 240, 240);
+    font-size: 13px;
+    margin-top: 4px;
+    }
+    .btn_submit:hover
+    {
+    background-color: #1f2327;
+    border: solid 2px #e11b19;
+    font-weight: 100;
+    color: #ffffff;
+    }
+    .btn_microsoft
+    {
+        bottom: 10px;
+        right: 10px;
+        color: white;
+        background-color:#1f2327;
+        border:solid 1.5px #ffffff;
+        color:#ffffff;
+        border-Radius: 5;
+        font-Weight:100px;
+    }
+    .btn_microsoft:hover
+    {
+        background-color: #ffffff;
+        color:#1f2327 ;
+    }
+    
+    
+    .logo-name {
+        width: 127px;
+        height: 25px;
+        color: var(--2-f-9-f-9-f-9, #f9f9f9);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        margin-top: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    
+      .login-container{
+        height: 100vh;
+        width: 100vw;
+        display:flex;
+        justify-content:center; 
+      }
+    
+      .login-elements-Container{
+        padding: 0px;
+        background-color:#1f2327;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width:30%;
+        min-width: 380px;
+            
+      }
+    
+    
+      .login-signIn{
+         max-width: 400px;
+         padding: 1rem; 
+      }
+    
+      .login-logo{
+        display: flex;
+        height:40px;
+        align-items:center;
+      }
+    
+      .login-form{
+         margin-top: 40px;
+      }
+    
+      .login-error{
+         margin-bottom: 10px;
+    
+      }
+    
+      .login-check-label{
+       color:#ffffff;
+       font-size:"15px";
+    
+      }
+    
+      .login-company{
+        text-align:center;
+        font-weight:300;
+        font-size:13px;
+      }
+      
+      .custom-input {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-weight: 200;
+        line-height: 1.2;
+        height:40px;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        font-size: 10px;
+      }
+      
+      .custom-input.is-invalid {
+        border-color: #dc3545;
+      }
+      
+      .custom-input:focus {
+        outline: none;
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+
+      .label-login {
+        position: absolute;
+        top: 0.3rem;
+        left: 0.75rem;
+        font-size: 0.8rem;
+        color: #495057;
+        pointer-events: none;
+        transition: top 0.3s ease, font-size 0.3s ease;
+      }
+      
+      .custom-input:not(:placeholder-shown) + label,
+      .custom-input:focus + label {
+        top: -0.85rem;
+        font-size: 0.68rem;
+      }
+      
+    
+  
+  }

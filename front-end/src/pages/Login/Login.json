@@ -1,0 +1,65 @@
+{
+  "ar": {
+    "translation": {
+      "pleaseLogIn": "الرجاء تسجيل الدخول",
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "emailIsRequired": "البريد الإلكتروني مطلوب.",
+      "password": "كلمة المرور",
+      "passwordRequired": "كلمة المرور مطلوبة.",
+      "rememberMe": "تذكرني",
+      "login": "تسجيل الدخول",
+      "noPermission": "عذرًا، ليس لديك إذن للوصول إلى هذا التطبيق!",
+      "loginError": "خطأ في تسجيل الدخول. الرجاء التحقق من بيانات تسجيل الدخول الخاصة بك.",
+      "invalidCredentials": "الرجاء إدخال عنوان بريد إلكتروني وكلمة مرور صحيحين.",
+      "createAccount":"أنشئ حسابًا"
+    }
+  },
+  "en": {
+    "translation": {
+      "pleaseLogIn": "Please login",
+      "emailAddress": "Email address",
+      "emailIsRequired": "Email is required.",
+      "password": "Password",
+      "passwordRequired": "Password is required.",
+      "rememberMe": "Remember me",
+      "login": "Login",
+      "noPermission": "Sorry, you do not have permission to access this app!",
+      "loginError": "Login error. Please check your login credentials.",
+      "invalidCredentials": "Please enter a valid email address and password.",
+      "createAccount":"create an Account"
+
+    }
+  },
+  "de": {
+    "translation": {
+      "pleaseLogIn": "Bitte einloggen",
+      "emailAddress": "E-Mail-Adresse",
+      "emailIsRequired": "E-Mail ist erforderlich.",
+      "password": "Passwort",
+      "passwordRequired": "Passwort ist erforderlich.",
+      "rememberMe": "Erinnere dich an mich",
+      "login": "Anmelden",
+      "noPermission": "Entschuldigung, Sie haben keine Berechtigung, auf diese App zuzugreifen!",
+      "loginError": "Anmeldefehler. Bitte überprüfen Sie Ihre Anmeldeinformationen.",
+      "invalidCredentials": "Bitte geben Sie eine gültige E-Mail-Adresse und ein Passwort ein.",
+      "createAccount":"Ein Konto erstellen"
+
+    }
+  },
+
+  "fr": {
+    "translation": {
+      "pleaseLogIn": "Veuillez vous connecter",
+      "emailAddress": "Adresse e-mail",
+      "emailIsRequired": "L'adresse e-mail est requise.",
+      "password": "Mot de passe",
+      "passwordRequired": "Le mot de passe est requis.",
+      "rememberMe": "Se souvenir de moi",
+      "login": "Connexion",
+      "noPermission": "Désolé, vous n'avez pas l'autorisation d'accéder à cette application !",
+      "loginError": "Erreur de connexion. Veuillez vérifier vos identifiants de connexion.",
+      "invalidCredentials": "Veuillez saisir une adresse e-mail et un mot de passe valides.",
+      "createAccount":"créer un compte"
+    }
+  }
+}

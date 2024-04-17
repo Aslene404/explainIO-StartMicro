@@ -1,0 +1,154 @@
+.newProject {
+  background: none;
+  height: 80vh;
+  width: 100%;
+}
+
+.newProject-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 5px;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.newProject-images {
+  display: flex;
+  margin-left: 20px;
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.newProject-element {
+  width: 30%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.newProject-img {
+  width: 100%;
+  display: bloc;
+}
+
+
+.newProject-title
+{
+  color: #ffffff;
+  font-size: 20px;
+  background-color: rgba(128,128,128,0.5);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 18px 18px;
+}
+
+.newProject-container-images{
+  height: inherit;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+@media (min-width: 950px) and (max-width: 1040px) {
+  .newProject-images {
+    margin-left: 6%;
+    
+  }
+}
+
+@media (min-width: 950px) {
+  .title-content {
+    padding-top: 80px;
+  }
+  .centered-images {
+    display: flex;
+    flex-direction: row;
+  }
+  .newProject-image {
+    height: 55%;
+    margin-left: 2%;
+    cursor: pointer;
+    width: 30%;
+  }
+  .newProject-images {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 950px) {
+  .title-content {
+    padding-top: 10px;
+  }
+  .subtitle {
+    padding-bottom: 5px;
+  }
+  .newProject-images {
+    display: flex;
+    justify-content: center;
+
+    height: 80vh;
+  }
+  .newProject-image {
+    height: 35%;
+    margin-left: 2%;
+    cursor: pointer;
+    width: 40%;
+  }
+  .newProject {
+    margin-left: 2%;
+    
+  }
+}
+
+@media (max-width: 768px) {
+
+  .newProject-images {
+    max-width: 90%;
+  }
+  .newProject-image {
+    width: 48%;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    padding-left: 6%;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 660px) {
+  .newProject-image {
+    width: 48%;
+  }
+}
+
+@media (max-width: 440px) {
+  .newProject-images {
+    overflow-y: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 68vh;
+  }
+
+  .newProject-image {
+    width: 80%;
+  }
+}

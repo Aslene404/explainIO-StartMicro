@@ -1,0 +1,72 @@
+{
+    "ar": {
+      "translation": {
+        "pleaseSignUp": "الرجاء التسجيل ",
+        "emailAddress": "عنوان البريد الإلكتروني",
+        "emailIsRequired": "البريد الإلكتروني مطلوب.",
+        "password": "كلمة المرور",
+        "passwordRequired": "كلمة المرور مطلوبة.",
+        "rememberMe": "تذكرني",
+        "signUp": "تسجيل ",
+        "noPermission": "عذرًا، ليس لديك إذن للوصول إلى هذا التطبيق!",
+        "loginError": "خطأ في تسجيل الدخول. الرجاء التحقق من بيانات تسجيل الدخول الخاصة بك.",
+        "invalidCredentials": "الرجاء إدخال عنوان بريد إلكتروني وكلمة مرور صحيحين.",
+        "confirmPasswort":"يجب أن تتطابق كلمة المرور وتأكيد كلمة المرور",
+        "confirmRequired":"كلمة المرور التأكيدية مطلوبة",
+        "alreadyHaveAccount":" لدي حساب "
+    }
+    },
+    "en": {
+      "translation": {
+        "pleaseSignUp": "SignUp",
+        "emailAddress": "Email address",
+        "emailIsRequired": "Email is required.",
+        "password": "Password",
+        "passwordRequired": "Password is required.",
+        "rememberMe": "Remember me",
+        "signUp": "SignUp",
+        "noPermission": "Sorry, you do not have permission to access this app!",
+        "loginError": "Login error. Please check your login credentials.",
+        "invalidCredentials": "Please enter a valid email address and password.",
+        "confirmPasswort":"confirm and password should be identical",
+        "confirmRequired":"confirm password is required",
+        "alreadyHaveAccount":"already have an account"
+      }
+    },
+    "de": {
+      "translation": {
+        "pleaseSignUp": "Anmelden",
+        "emailAddress": "E-Mail-Adresse",
+        "emailIsRequired": "E-Mail ist erforderlich.",
+        "password": "Passwort",
+        "passwordRequired": "Passwort ist erforderlich.",
+        "rememberMe": "Erinnere dich an mich",
+        "signUp": "Anmelden",
+        "noPermission": "Entschuldigung, Sie haben keine Berechtigung, auf diese App zuzugreifen!",
+        "loginError": "Anmeldefehler. Bitte überprüfen Sie Ihre Anmeldeinformationen.",
+        "invalidCredentials": "Bitte geben Sie eine gültige E-Mail-Adresse und ein Passwort ein.",
+        "confirmPasswort":"Bestätigung und Passwort müssen identisch sein.",
+        "confirmRequired":"Bestätigen Sie das Passwort ist erforderlich.",
+        "alreadyHaveAccount":"Schon ein Konto haben"
+      }
+    },
+  
+    "fr": {
+      "translation": {
+        "pleaseSignUp": "Veuillez vous inscrire",
+        "emailAddress": "Adresse e-mail",
+        "emailIsRequired": "L'adresse e-mail est requise.",
+        "password": "Mot de passe",
+        "passwordRequired": "Le mot de passe est requis.",
+        "rememberMe": "Se souvenir de moi",
+        "signUp": "Inscription",
+        "noPermission": "Désolé, vous n'avez pas l'autorisation d'accéder à cette application !",
+        "loginError": "Erreur de connexion. Veuillez vérifier vos identifiants de connexion.",
+        "invalidCredentials": "Veuillez saisir une adresse e-mail et un mot de passe valides.",
+        "confirmPasswort":"Le mot de passe de confirmation doit être identique au mot de passe." , 
+        "confirmRequired":"Confirmation du mot de passe est requis.",
+        "alreadyHaveAccount":"j'ai Déjà un compte"
+    }
+    }
+  }
+  

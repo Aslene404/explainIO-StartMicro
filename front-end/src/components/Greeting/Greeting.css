@@ -1,0 +1,25 @@
+.greeting{
+    color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  padding-top: 50px;
+  padding-left: 86px;
+  padding-right: 86px;
+  }
+
+  @media (max-width: 950px) {
+    .greeting{
+      margin-left: 2%;
+
+    }
+  }
+
+  @media (max-width: 768px) {
+    .greeting{
+      padding-left: 8%;
+
+    }
+  }

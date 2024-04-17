@@ -1,0 +1,28 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+
+.logo-link {
+    text-decoration: none;
+     color: inherit; 
+}
+
+.logo-content{
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+}
+
+.logo-container-img{
+margin-bottom: 8vh;
+}
+
+.logo-container-name{
+    margin-bottom: 8vh;
+}

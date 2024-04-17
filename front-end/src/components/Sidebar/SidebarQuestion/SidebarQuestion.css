@@ -1,0 +1,29 @@
+.fragen
+{
+  background-color:#3C3C3C;
+  color:#ffffff;
+  width:100%;
+  border: none;
+  height:52px;
+  font-weight: bold;
+  margin-Bottom: 4px
+}
+
+.active
+{
+  background-color:#E82E2C !important;
+}
+
+.no-fragen-title{
+  color: white;
+  background: #3C3C3C;
+  height: 5vh;
+  display: flex;
+  justify-Content: center;
+  align-Items: center;
+}
+
+.side-questions-container{
+  height: 82vh;
+  overflow-y: auto;
+}

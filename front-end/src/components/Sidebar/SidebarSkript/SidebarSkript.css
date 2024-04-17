@@ -1,0 +1,72 @@
+.scene {
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+  
+  .scene-img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 175px;
+  }
+  
+  .scene-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    background: #e11b19;
+    color: var(--2-f-9-f-9-f-9, #f9f9f9);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .edit-btns-sidebar{
+    display:flex;
+    width: 12.7%;
+    max-width: 195px;
+    min-width: 160px;
+    position: absolute;
+    gap: 5px;
+    justify-content: end;
+    top: 6px;
+    right: 6px;
+    display: none;
+  
+    .edit-btn-sidebar{
+      color: white;
+      font-size: 20;
+      background: rgba(31, 35, 39, 0.5);
+      width: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 25px;
+      border-radius: 5px;
+    }
+  }
+  
+  .scene:hover{
+    .edit-btns-sidebar{
+      display: flex;
+    }
+  }
+  

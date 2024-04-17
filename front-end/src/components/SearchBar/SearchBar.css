@@ -1,0 +1,117 @@
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .container-search {
+    margin: 0px 15px;
+    border: 1px solid rgb(204, 204, 204);
+    background: #fff;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 24px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    min-width: 270px;
+
+    .search-icon {
+      color: #888;
+    }
+
+    .search-mode-big{
+      display: flex;
+      width: 100%;
+      align-items: center;
+    gap: 10px;
+    }
+
+    .search-input {
+      outline: none;
+      border: none;
+      color: var(--33-c-3-c-3-c, #3c3c3c);
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 4px;
+    }
+
+    .select-search-bar {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: #888;
+      font-weight: 700;
+    }
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.search-mode-buttons {
+  display: none;
+}
+
+.search-mode{
+  display: none;
+}
+
+.search-mode-buttons button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-mode-buttons button.active {
+  background-color: #e11b19;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .search-mode-buttons {
+    display: flex;
+    border: none;
+      outline: none;
+      cursor: pointer;
+      color: #888;
+      font-weight: 700;
+  }
+
+  .search-mode{
+    display: block;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+
+  .search-mode-big{
+    display: none !important;
+    
+  }
+  
+  .container-search{
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,66 @@
+.scenes-container{
+    display: flex;
+    flex-Direction: column;
+    height: 100%;
+}
+
+.with-sidebar {
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  }
+  
+  .without-sidebar {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating-image {
+    animation: rotate 5s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+
+.scene-btns-container{
+    margin-Top: 10px;
+    text-Align: center;
+    display: flex;
+    flex-Direction: column;
+    gap: 15px;
+    }
+
+
+.scene-btns-withSideBar{
+  align-items: center;
+}
+
+    .scene-btns{
+        display: flex;
+         gap: 15px
+    }
+
+    .back-icon{
+        margin-Right: 2px
+    }
+
+    .play-icon,.forward-icon{
+        margin-left: 3px;
+    }
+
+    @media (max-width: 440px) {
+      .scene-name{
+          font-size: 10vw !important;
+      }
+    }
+  

@@ -1,0 +1,99 @@
+.popUpContent {
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: var(--33-c-3-c-3-c, #3c3c3c);
+  padding: 20px;
+}
+
+.element-label-chapter-option {
+  color: var(--1-ffffff, #fff);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.element-label-chapter {
+  flex-shrink: 0;
+  color: var(--1-ffffff, #fff);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-right: 19px;
+}
+.element-chapter-popUp {
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chapter-input {
+  border-radius: 15px;
+  background: #d9d9d9;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; 
+  height: 60px;
+  width: 220px;
+  padding: 10px;
+}
+
+
+.chapter-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chapter-title {
+  color: var(--1-ffffff, #fff);
+  font-size: 20px;
+  line-height: 30px; 
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.buttons-chapter {
+  display: flex;
+  width: 185px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: var(--6-e-82-e-2-c, #e11b19);
+  color: var(--2-f-9-f-9-f-9, #f9f9f9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  height:60px;
+}
+
+.backdrop-chapter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+

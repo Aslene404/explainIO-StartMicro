@@ -1,0 +1,140 @@
+.side_bar_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 13%;
+  max-width: 200px;
+  min-width: 173px;
+}
+
+.side_bar {
+  width: 100%;
+  background-color: #3c3c3c;
+  color: #fff;
+  height: 100%;
+  flex-shrink: 0;
+  @media (min-width: 769px) {
+    transform: translateX(0%) !important;
+  }
+
+  .logo-name-nav {
+    color: var(--2-f-9-f-9-f-9, #f9f9f9);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.nav-btn-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  display: flex;
+  width: 100%;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background: var(--6-e-82-e-2-c, #e11b19);
+}
+
+.active-btn {
+  background: var(--6-e-82-e-2-c, #e11b19);
+}
+
+.btn-name,
+.last-name {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 7px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.last-name {
+  width: 13%;
+  max-width: 200px;
+  min-width: 173px;
+}
+
+.div-bar {
+  width: 12%;
+  max-width: 180px;
+  min-width: 155px;
+  height: 4px;
+  margin-left: 10px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(249, 249, 249, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  position: fixed;
+  bottom: 90px;
+}
+
+.nav-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 5vh;
+}
+
+.side_bar-logo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-button span {
+  display: block;
+  height: 2px;
+  width: 25px;
+  margin: 5px;
+  background: white;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    position: fixed;
+    display: block;
+    padding: 10px;
+  }
+
+  .side_bar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+}

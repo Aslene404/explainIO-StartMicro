@@ -1,0 +1,53 @@
+
+.filled {
+    font-size: 25px;
+    color: gold; 
+  }
+ 
+  .empty {
+    font-size: 25px;
+    color: lightgray; 
+  }
+
+  .half-filled {
+    display: inline-block;
+    position: relative;
+    color: lightgray;
+  }
+  
+  .half-filled::before {
+    content: '\2605'; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: gold; 
+  }
+
+  .card-course-title{
+    font-Size: 24px;
+    width: 90%;
+    overflow: hidden;
+    text-Overflow: ellipsis;
+    white-Space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .card-information{
+    margin-Left: 10px;
+    display: flex;
+    flex-Direction: column;
+    gap: 6px;
+  }
+
+  .rtl {
+    direction: rtl;
+  }
+  
+  .ltr {
+    direction: ltr;
+  }

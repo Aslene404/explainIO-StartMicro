@@ -1,0 +1,30 @@
+{
+    "ar": {
+      "translation": {
+        "fewStepsToCreation": "بخطوات قليلة نحو إبداعك",
+        "welcomeMessage": " مرحبًا بك explainIO - الحل الشامل لإنشاء فيديوهات توضيحية رائعة بدون جهد مع دعم الذكاء الاصطناعي!",
+        "startYourCreation": "ابدأ إبداعك"
+      }
+    },
+    "en": {
+      "translation": {
+        "fewStepsToCreation": "With a few steps to your CREATION",
+        "welcomeMessage": "Welcome to explainIO - your all-in-one solution for effortless creation of impressive explanatory videos with AI support!",
+        "startYourCreation": "Start your creation"
+      }
+    },
+    "de": {
+      "translation": {
+        "fewStepsToCreation": "Mit wenigen Schritten zu deinem KREATION",
+        "welcomeMessage": "Willkommen bei explainIO – deine All-in-One-Lösung zur mühelosen Erstellung von beeindruckenden Erklärungsvideos mit KI-Unterstützung!",
+        "startYourCreation": "Starte deine Kreation"
+      }
+    },
+    "fr": {
+      "translation": {
+        "fewStepsToCreation": "Avec quelques étapes vers votre CRÉATION",
+        "welcomeMessage": "Bienvenue sur explainIO - votre solution tout-en-un pour la création sans effort de vidéos explicatives impressionnantes avec le support de l'IA!",
+        "startYourCreation": "Commencez votre création"
+      }
+    }
+  }

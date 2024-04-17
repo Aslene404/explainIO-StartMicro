@@ -1,0 +1,223 @@
+.audio-visualizer {
+  width: 50vw;
+  height: 400px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.audio-bar-pause {
+  width: 5px;
+  height: 5px;
+  background-color: #e11b19;
+  margin-right: 5px;
+}
+.audio-bar {
+  width: 5px;
+  height: 5px;
+  background-color: #e11b19;
+  margin-right: 5px;
+  animation: moveCenter 3s linear infinite alternate;
+}
+
+@for $i from 1 through 100 {
+  .audio-bar:nth-child(#{$i}) {
+    $animation-delay: 0.25s * ($i - 1);
+    animation: moveCenter#{$i
+      %
+      3 +
+      1}
+      3s
+      linear
+      infinite
+      alternate
+      $animation-delay;
+  }
+}
+@keyframes moveCenter1 {
+  0%,
+  100% {
+    height: 30px;
+    opacity: 1;
+  }
+
+  50% {
+    height: 60px;
+    opacity: 0.5;
+  }
+}
+
+@keyframes moveCenter2 {
+  0%,
+  100% {
+    height: 50px;
+    opacity: 1;
+  }
+
+  50% {
+    height: 80px;
+    opacity: 0.5;
+  }
+}
+@keyframes moveCenter3 {
+  0%,
+  100% {
+    height: 80px;
+    opacity: 1;
+  }
+
+  50% {
+    height: 60px;
+    opacity: 0.5;
+  }
+}
+
+.custom-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-result {
+  background-color: var(--33-c-3-c-3-c, #3c3c3c);
+  color: var(--1-ffffff, #fff);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.result-btn {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  background: var(--6-e-82-e-2-c, #e11b19);
+  color: var(--2-f-9-f-9-f-9, #f9f9f9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.fragen-nav-btn {
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fragen-nav-btn:hover {
+  background: #3c3c3c;
+}
+
+.div-fragen-bar {
+  width: 100%;
+  height: 4px;
+  flex-shrink: 0;
+  background: rgba(249, 249, 249, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin-bottom: 20px;
+  margin-top: -3px;
+}
+
+
+.leftbar-mode {
+ height: 100%;
+  transition: transform 0.3s ease-in-out;
+  @media (min-width: 776px) {
+    transform: translateX(0%) !important;
+  }
+
+}
+
+
+
+.course-container {
+  overflow-y: auto;
+}
+
+.delete-modal-back {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.delete-modal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.coursePage-question{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5px;
+}
+
+@media (max-width: 1015px){
+  .audio-bar-pause,.audio-bar{
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 814px){
+  .audio-bar-pause,.audio-bar{
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 614px){
+  .audio-bar-pause,.audio-bar{
+    margin-right: 2px;
+  }
+}
+
+
+@media (max-width: 776px) {
+  .menu-button {
+    position: fixed;
+    display: block;
+    padding: 10px;
+  }
+
+  .leftbar-mode {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+  }
+}

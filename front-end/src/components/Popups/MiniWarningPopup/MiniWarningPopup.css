@@ -1,0 +1,25 @@
+
+ .modal-body-style
+ {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    color: #ffffff;
+    font-size: 14px; 
+    text-transform:uppercase ;
+ }
+
+ .modal-body-container-style
+ {
+  background-color:#1f2327;
+ }
+
+ .modal-back
+ {
+   top: 0;
+   position: fixed;
+   width: 100%;
+   height: 100%; 
+   background-color: rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(3px);
+ }

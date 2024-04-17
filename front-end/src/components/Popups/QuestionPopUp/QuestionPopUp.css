@@ -1,0 +1,145 @@
+
+
+.element {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.element-input-number {
+  width: 120px;
+  flex-shrink: 0;
+  padding-left: 10px;
+  border-radius: 15px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+.element-label {
+  flex-shrink: 0;
+  color: var(--1-ffffff, #fff);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-right: 19px;
+}
+
+.element-input {
+  padding-left: 10px;
+  border-radius: 15px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  width: 220px;
+  height: 60px;
+}
+
+.error-border {
+  border: 1px solid red;
+}
+
+
+.buttons {
+  display: flex;
+  width: 185px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--6-e-82-e-2-c, #e11b19);
+  color: var(--2-f-9-f-9-f-9, #f9f9f9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  height: 60px;
+}
+
+.fragen {
+  width: 100%;
+}
+
+.fragen-tooltip {
+  display: none;
+  position: absolute;
+  right: -60%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 60px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  opacity: initial;
+}
+
+.fragen:hover + .fragen-tooltip {
+  display: block;
+}
+
+.question-help-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: darkGray !important;
+}
+
+.question-popup-item{
+  margin-top: 20px;
+}
+
+.popup-fragen{
+  margin-bottom: 20px !important;
+}
+
+.info-container {
+  position: relative;
+}
+
+.info-icon {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.info-dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  top: 100%;
+  left: 0;
+  width: 450px;
+  padding: 10px;
+  background-color: #FEE078;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 2;
+  font-size:22px;
+  color: #000;
+}
+
+.info-icon:hover .info-dropdown {
+  display: block;
+}

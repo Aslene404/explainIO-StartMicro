@@ -1,0 +1,32 @@
+.sidebar-charakter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-charakter-item {
+  height: 16vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.sidebar-charakter-image {
+  overflow: hidden;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+}
+
+.charakter-image{
+    height: 40vh; 
+}
+
+.sidebar-charakter-label{
+    
+    color: #F9F9F9;
+    position: absolute;
+    bottom: -10px;
+}

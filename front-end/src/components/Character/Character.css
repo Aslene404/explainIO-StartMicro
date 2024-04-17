@@ -1,0 +1,104 @@
+.custom-audio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  background: var(--33-c-3-c-3-c, rgb(238, 49, 49));
+  padding: 5px;
+  width: 75%;
+}
+.custom-audio-podcast{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--33-c-3-c-3-c, #3C3C3C);
+  padding: 5px;
+  width: 17vw;
+  margin: 20px;
+  height: 13vh;
+
+}
+
+.character-container {
+   height:80vh;
+   overflow: hidden;
+   overflow: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.character-podcast{
+
+    display: flex;
+    justify-content: center;
+    gap: 30;
+    flex-wrap: wrap;
+
+
+}
+
+.custom-audio-button {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.progress-container {
+  width: 80%;
+  background-color: #ddd;
+  height: 1px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #0077FF;
+  border-radius: 5px;
+  width: 1px;
+}
+
+.progress-indicator {
+  width: 3px;
+  height: 20px;
+  background-color: #E11B19;
+  position: absolute;
+  border-radius: 5px;
+}
+
+
+.custom-audio-button-icon{
+  font-size: 30px;
+}
+
+.selected-avatar {
+  border: 2px dashed #E11B19;
+  border-width: 2px; 
+  border-spacing: 2px; 
+  border-radius: 18px;
+  margin-top: 30px;
+
+
+}
+.selected-podcast {
+  border: 2px dashed #E11B19;
+  border-width: 2px; 
+  border-spacing: 1px; 
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+ padding: 5px;
+
+}
+
+@media (max-width: 870px) {
+  .character-container{
+    align-items:flex-start;
+  }
+}
